@@ -8,4 +8,32 @@ body {
   padding: 0;
   background: #000;
   font-family: "Poppins", sans-serif;
+  cursor: none; /* Hide default cursor */
 }
+
+/* Ensure cursor works across all components */
+#cursor {
+  pointer-events: none !important;
+  z-index: 9999 !important;
+}
+
+/* Logo container styling for cursor effects */
+.logo-container {
+  position: relative;
+  overflow: visible;
+}
+
+.cursor-logo {
+  transition: transform 0.3s ease;
+}
+
+/* Optional: Show default cursor on mobile devices */
+@media (max-width: 768px) {
+  body {
+    cursor: auto;
+  }
+  #cursor {
+    display: none !important;
+  }
+}
+

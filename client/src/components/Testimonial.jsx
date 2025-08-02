@@ -92,16 +92,16 @@ const  TestimonialsSection= () => {
   return (
     <section className="relative py-24 px-4 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-black">
+      <div className="absolute inset-0 bg-black border border-t-black">
       
       </div>
 
       <div className="relative max-w-7xl mx-auto">
         <div className={`text-center mb-16 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <h2 className="text-4xl md:text-6xl font-bold text-[#999999] mb-6">
-            What Our <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Clients Say</span>
+            What Our <span className=" text-white">Clients Say</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-[#999999] max-w-3xl mx-auto leading-relaxed">
             Don't just take our word for it. Here's what our satisfied clients have to say about their experience working with us.
           </p>
         </div>
@@ -109,7 +109,7 @@ const  TestimonialsSection= () => {
         {/* Infinite Scrolling Testimonials */}
         <div className="relative bg-black">
           {/* First Row - Left to Right */}
-          <div className="flex overflow-hidden mb-8 px-[12px]">
+          <div className="flex overflow-hidden mb-8 py-[20px]">
         <div className="absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
             <div className="flex animate-scroll-left">
               {infiniteTestimonials.slice(0, 12).map((testimonial, index) => (

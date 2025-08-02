@@ -58,7 +58,7 @@ const FrequentlyAskedQuestion = () => {
                                 <h3 className="text-base font-medium text-white">
                                     {faq.question}
                                 </h3>
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="#999999"  xmlns="http://www.w3.org/2000/svg" className={`${openIndex === index ? "rotate-180" : ""} transition-all duration-500 ease-in-out`}>
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="#fee685"  xmlns="http://www.w3.org/2000/svg" className={`${openIndex === index ? "rotate-180" : ""} transition-all duration-500 ease-in-out`}>
                                     <path d="m4.5 7.2 3.793 3.793a1 1 0 0 0 1.414 0L13.5 7.2" stroke="#1D293D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
