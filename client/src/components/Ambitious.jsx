@@ -59,13 +59,13 @@ const Ambitious = () => {
         </div>
 
      
-     <section className="relative flex flex-col md:flex-row justify-between items-start gap-6 max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12 bg-black rounded-3xl sm:rounded-4xl mb-8 sm:mb-12 border border-amber-200 mt-8 sm:mt-12">
-      <div className="flex flex-col items-start gap-4 sm:gap-6 w-full max-w-full md:max-w-[480px]">
+     <section className="relative flex flex-col md:flex-row justify-between items-start gap-6 max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12 bg-black rounded-3xl sm:rounded-4xl mb-8 sm:mb-12 border border-amber-200 mt-8 sm:mt-12 hover:scale-95 transition-transform duration-300 hover:border-black">
+      <div className="flex flex-col items-start gap-4 sm:gap-6 w-full max-w-full md:max-w-[480px] ">
         <div className="bg-white rounded-full p-2">
           <Rocket alt="Rocket Icon" className="w-6 h-6 md:w-8 md:h-8" />
         </div>
         <div>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-2 sm:mb-4 max-w-full md:max-w-[480px]">
+          <h3 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-2 sm:mb-4 max-w-full md:max-w-[480px] hover:scale-95 transition-transform duration-300">
             Our Mission to Solve with Technology, Not Just Sell It
           </h3>
           <p className="text-white text-base sm:text-lg leading-relaxed">
@@ -83,9 +83,9 @@ const Ambitious = () => {
       </div>
     </section>
 
-    <section className="flex items-center justify-center px-2 sm:px-0">
-      <div className="max-w-4xl w-full mx-auto rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="border border-amber-200 rounded-3xl sm:rounded-4xl flex flex-col items-center">
+    <section className="flex items-center justify-center px-2 sm:px-0 ">
+      <div className="max-w-4xl w-full mx-auto rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-4  ">
+        <div className="border border-amber-200 rounded-3xl sm:rounded-4xl flex flex-col items-center hover:scale-95 transition-transform duration-300 hover:border-black">
           <img
             src="https://www.unsquare.in/images/6606e04a4d77039f6a24a3b6-6606ec6e18d2113ad67543b4_Pineapple%20-%20Purple%20Dark%20Eyes.svg"
             alt=""
@@ -98,7 +98,7 @@ const Ambitious = () => {
             </p>
           </div>
         </div>
-        <div className="border border-amber-200 rounded-3xl sm:rounded-4xl flex flex-col items-center">
+        <div className="border border-amber-200 rounded-3xl sm:rounded-4xl flex flex-col items-center hover:scale-95 transition-transform duration-300 hover:border-black">
           <img
             src="https://www.unsquare.in/images/6606e04a4d77039f6a24a3b6-6606ec6c619fa360546a6120_Cup%20-%20Purple%20Dark%20Eyes.svg"
             alt=""

@@ -4,7 +4,7 @@ import LightRays from "../LightRays";
 import { Mouse } from "lucide-react";
 const Hero = () => {
   return (
-    <div className="w-full h-screen relative flex justify-center items-center top-[-200px] z-1000">
+    <div className="w-full h-screen relative flex justify-center items-center top-[-200px] z-10">
       <div style={{ width: "100%", height: "1200px", position: "relative" }}>
         <LightRays
           raysOrigin="top-center"
@@ -19,7 +19,7 @@ const Hero = () => {
           className="custom-rays"
         />
       </div>
-      <div className="absolute flex flex-col justify-center items-center z-1000 ">
+      <div className="absolute flex flex-col justify-center items-center z-20">
       <div className="flex flex-col justify-center items-center mt-12 px-4 sm:px-8">
         <h1 className="font-semibold text-white mt-[500px] mb-12 text-center font-poppins text-3xl sm:text-4xl md:text-5xl lg:text-6xl md:leading-[112%]">
           Accelerate Sales Growth with <br className="hidden sm:block" /> Tech Expert
@@ -31,7 +31,7 @@ const Hero = () => {
           online!
         </p>
 
-        <div className=" mt-20 flex flex-col sm:flex-row gap-4 sm:gap-8 w-full justify-center items-center mb-20 z-auto">
+        <div className="mt-20 flex flex-col sm:flex-row gap-4 sm:gap-8 w-full justify-center items-center mb-20">
           <button className="text-white rounded-full h-14 w-full sm:w-60 font-semibold leading-[26px] text-base sm:text-lg bg-violet-600 hover:bg-violet-700 transition transform hover:scale-95 duration-200 border-none">
             Schedule Consultation
           </button>
