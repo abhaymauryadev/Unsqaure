@@ -167,7 +167,7 @@ const Cursor = () => {
       ref={cursorRef}
       id='cursor'
       className='fixed h-[20px] w-[20px] bg-[#7f22fe] rounded-full z-[9999] pointer-events-none mix-blend-difference transform-gpu'
-      style={{     position: 'fixed',
+      style={{ position: 'fixed',
         left: 0,
         top: 0,
         width: 20, // Or your custom size
