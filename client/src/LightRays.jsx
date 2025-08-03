@@ -15,25 +15,25 @@ const hexToRgb = (hex) => {
     : [1, 1, 1];
 };
 
-const getAnchorAndDir = (origin, w, h) => {
+const getAnchorAndDir = (origin, width, height) => {
   const outside = 0.2;
   switch (origin) {
     case "top-left":
-      return { anchor: [0, -outside * h], dir: [0, 1] };
+      return { anchor: [0, -outside * height], dir: [0, 1] };
     case "top-right":
-      return { anchor: [w, -outside * h], dir: [0, 1] };
+      return { anchor: [width, -outside * height], dir: [0, 1] };
     case "left":
-      return { anchor: [-outside * w, 0.5 * h], dir: [1, 0] };
+      return { anchor: [-outside * width, 0.5 * height], dir: [1, 0] };
     case "right":
-      return { anchor: [(1 + outside) * w, 0.5 * h], dir: [-1, 0] };
+      return { anchor: [(1 + outside) * width, 0.5 * height], dir: [-1, 0] };
     case "bottom-left":
-      return { anchor: [0, (1 + outside) * h], dir: [0, -1] };
+      return { anchor: [0, (1 + outside) * height], dir: [0, -1] };
     case "bottom-center":
-      return { anchor: [0.5 * w, (1 + outside) * h], dir: [0, -1] };
+      return { anchor: [0.5 * width, (1 + outside) * height], dir: [0, -1] };
     case "bottom-right":
-      return { anchor: [w, (1 + outside) * h], dir: [0, -1] };
+      return { anchor: [width, (1 + outside) * height], dir: [0, -1] };
     default: // "top-center"
-      return { anchor: [0.5 * w, -outside * h], dir: [0, 1] };
+      return { anchor: [0.5 * width, -outside * height], dir: [0, 1] };
   }
 };
 
