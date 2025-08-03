@@ -85,6 +85,7 @@ const Ambitious = () => {
 
     <section className="flex items-center justify-center px-2 sm:px-0 ">
       <div className="max-w-4xl w-full mx-auto rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-4  ">
+        
         <div className="border border-amber-200 rounded-3xl sm:rounded-4xl flex flex-col items-center hover:scale-95 transition-transform duration-300 hover:border-black">
           <img
             src="https://www.unsquare.in/images/6606e04a4d77039f6a24a3b6-6606ec6e18d2113ad67543b4_Pineapple%20-%20Purple%20Dark%20Eyes.svg"
