@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from "react";
 import { Renderer, Program, Triangle, Mesh } from "ogl";
 import "./lightRays.css";
 
+
 const DEFAULT_COLOR = "#ffffff";
 
 const hexToRgb = (hex) => {
