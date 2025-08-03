@@ -111,13 +111,12 @@ const  TestimonialsSection= () => {
           {/* First Row - Left to Right */}
           <div className="flex overflow-hidden mb-8 py-[20px]">
         <div className="absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
-            <div className="flex animate-scroll-left">
+            <div className="flex animate-scroll-left ">
               {infiniteTestimonials.slice(0, 12).map((testimonial, index) => (
                 <div
                   key={`row1-${testimonial.id}-${index}`}
-                  className="flex-shrink-0 w-96 mx-4"
-                >
-                  <div className="bg-black rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-amber-200">
+                  className="flex-shrink-0 w-96 mx-4 ">
+                  <div className="bg-black rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-amber-200 hover:border-black ">
                     <div className="flex items-center mb-4">
                       {renderStars(testimonial.rating)}
                     </div>
@@ -152,7 +151,7 @@ const  TestimonialsSection= () => {
                   key={`row2-${testimonial.id}-${index}`}
                   className="flex-shrink-0 w-96 mx-4"
                 >
-                  <div className="bg-black rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-amber-200">
+                  <div className="bg-black rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-amber-200 hover:border-black">
                     <div className="flex items-center mb-4">
                       {renderStars(testimonial.rating)}
                     </div>

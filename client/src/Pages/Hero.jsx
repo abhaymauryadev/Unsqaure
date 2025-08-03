@@ -4,8 +4,8 @@ import LightRays from "../LightRays";
 import { Mouse } from "lucide-react";
 const Hero = () => {
   return (
-    <div className="w-full h-screen relative flex justify-center items-center top-[-200px] z-10">
-      <div style={{ width: "100%", height: "1200px", position: "relative" }}>
+    <div className="w-full h-screen relative flex justify-center items-center  mt-[60px] z-10">
+      <div style={{ width: "100%", height: "900px", position: "relative" }}>
         <LightRays
           raysOrigin="top-center"
           raysColor="#00ffff"
@@ -20,8 +20,8 @@ const Hero = () => {
         />
       </div>
       <div className="absolute flex flex-col justify-center items-center z-20">
-      <div className="flex flex-col justify-center items-center mt-12 px-4 sm:px-8">
-        <h1 className="font-semibold text-white mt-[500px] mb-12 text-center font-poppins text-3xl sm:text-4xl md:text-5xl lg:text-6xl md:leading-[112%]">
+      <div className="flex flex-col justify-center items-center mt- px-4 sm:px-8">
+        <h1 className="font-semibold text-white mt-[100px] mb-12 text-center font-poppins text-3xl sm:text-4xl md:text-5xl lg:text-6xl md:leading-[112%]">
           Accelerate Sales Growth with <br className="hidden sm:block" /> Tech Expert
         </h1>
         <p className="text-white text-center mt-[65px] text-base sm:text-lg md:text-xl max-w-5xl">

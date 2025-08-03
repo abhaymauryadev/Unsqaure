@@ -6,30 +6,7 @@ const marqueeText = `
   Innovation and Expertise at the Heart of Everything We Do —
   Innovation and Expertise at the Heart of Everything We Do —
   Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
-  Innovation and Expertise at the Heart of Everything We Do —
+  Innovation and Expertise at the Heart of Everything We Do — 
 `;
 
 const Ambitious = () => {
@@ -42,7 +19,7 @@ const Ambitious = () => {
         }
         .marquee-track {
           display: flex;
-          animation: marquee 1500s linear infinite;
+          animation: marquee 500s linear infinite;
         }
       `}
       </style>

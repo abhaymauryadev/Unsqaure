@@ -3,8 +3,6 @@ import { Sun } from 'lucide-react';
 
 const Navbar = () => {
   
- 
-
   return (
     <>
     
