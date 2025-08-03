@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from './Pages/Hero'
 import Navbar from './components/Navbar'
 import Ambitious from './components/Ambitious'
-import Mentor from './components/Mentor'
+import Partner from './components/Partner'
 import Service from './components/Service'
 import Testimonial from './components/Testimonial'
 import FrequentlyAskedQuestion from './components/FrequentlyAskedQuestion'
@@ -17,7 +17,7 @@ const App = () => {
   <Navbar/>
   <Hero/>
   <Ambitious/>
-  <Mentor/>
+  <Partner/>
   <Service/>
   <Testimonial/>
   <FrequentlyAskedQuestion/>

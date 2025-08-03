@@ -92,7 +92,7 @@ const Ambitious = () => {
             className="my-8 w-32 sm:w-40 md:w-48"
           />
           <div className="items-end p-4 sm:p-6">
-            <h1 className="text-white text-2xl sm:text-3xl md:text-[2.75rem] leading-10 font-bold">Navigating the Agency Evolution</h1>
+            <h1 className="text-white text-2xl sm:text-3xl md:text-[2.75rem]  font-bold">Navigating the Agency Evolution</h1>
             <p className="text-white text-base sm:text-lg mt-3">
               From humble beginnings to remarkable achievements, we've embarked on a journey fueled by passion, innovation, and a relentless drive for excellence.
             </p>
@@ -105,7 +105,7 @@ const Ambitious = () => {
             className="my-8 w-32 sm:w-40 md:w-48"
           />
           <div className="items-end p-4 sm:p-6">
-            <h1 className="text-white text-2xl sm:text-3xl md:text-[2.75rem] leading-10 font-bold">Core Values of Excellence</h1>
+            <h1 className="text-white text-2xl sm:text-3xl md:text-[2.75rem]  font-bold">Core Values of Excellence</h1>
             <p className="text-white text-base sm:text-lg mt-3">
               At Unsquare, excellence, innovation, and integrity drive us. Collaboration, adaptability, and client-centricity define our culture, ensuring success.
             </p>

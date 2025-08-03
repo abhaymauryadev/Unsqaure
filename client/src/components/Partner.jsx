@@ -1,6 +1,6 @@
 import React from 'react'
 
-const mentor = () => {
+const Partner = () => {
   return (
    <section className=' max-w-4xl mx-auto  mt-[99px]'>
     <div>
@@ -28,4 +28,4 @@ const mentor = () => {
   )
 }
 
-export default mentor
+export default Partner

@@ -82,7 +82,7 @@ const Cursor = () => {
     // Reset cursor
     gsap.to(cursorRef.current, {
       scale: 1,
-      backgroundColor: "#f97316",
+      backgroundColor: "#7f22fe",
       duration: 0.2
     });
     
@@ -168,7 +168,7 @@ const Cursor = () => {
     <div 
       ref={cursorRef}
       id='cursor' 
-      className='fixed top-0 left-0 h-[20px] w-[20px] bg-orange-500 rounded-full z-[9999] pointer-events-none mix-blend-difference' 
+      className='fixed  h-[20px] w-[20px] bg-[#7f22fe] rounded-full z-[9999] pointer-events-none mix-blend-difference' 
     />
   );
 };
